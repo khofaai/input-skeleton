@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "name": "input-skeleton",
+  "main": "dist/index.js",
+  "description": "skeleton for inputs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publisher": "babel ./src --out-dir ./dist -s inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khofaai/input-skeleton"
+  },
+  "author": {
+    "name": "Anas EL ALAMI",
+    "email": "anaselalamikh@gmail.com",
+    "url": "https://anaselalami.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "skeleton",
+    "input-skeleton",
+    "react-input-skeleton",
+    "react-skeleton",
+    "input"
+  ],
+  "bugs": {
+    "url": "https://github.com/khofaai/input-skeleton/issues"
+  },
+  "homepage": "https://github.com/khofaai/input-skeleton#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "files": [
+    "dist/*"
+  ]
+}

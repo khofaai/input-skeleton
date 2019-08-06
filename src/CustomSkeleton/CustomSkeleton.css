@@ -1,0 +1,32 @@
+.CustomSkeleton { position: relative; }
+
+.CustomSkeleton .CustomSkeleton_input {
+  animation: shine-lines 2.0s infinite ease-out;
+}
+.CustomSkeleton .CustomSkeleton_icon {
+  position: absolute;
+  right: 15px;
+  top: 35%;
+}
+
+
+
+@keyframes shine-lines {
+	0% {
+		background-position: -200px;
+	}
+
+	40%, 100% {
+		background-position: rem(350);
+	}
+}
+
+@keyframes shine-avatar {
+	0% {
+		background-position: -32px;
+	}
+
+	40%, 100% {
+		background-position: 208px;
+	}
+}
